@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>php programming learn hunter</title>
+
+<style media="screen">
+  body{
+
+    font-size: 21px;
+    padding: 40px;
+
+  }
+</style>
+</head>
+
+<body>
+
+<?php
+
+  echo "hello world";
+
+  echo "<br>";
+
+  print "zubair is best";
+
+  $a=10;
+  $b=20;
+  $g=30;
+
+  if($a>$b) {
+      echo "ok i am good";
+  }elseif($b>$g){
+      echo "ok this is not good";
+  }else{
+    echo "zubair is good";
+  }
+  echo "<br>";
+
+  $name = "zubair bin ferdous";
+
+  $email = "zubairbinf@gmail.com";
+
+
+  echo $name;
+  echo "<br>";
+  echo "$email";
+  echo "<br>";
+
+
+  // ******************************************
+  // ******************************************
+
+  echo "<br>";
+  echo "<br>";
+  echo "<br>";
+
+
+  $name_tital="datatypes";
+
+   // string
+   // integer
+   // float
+   // boolean
+   // array
+   // object
+   // null
+   // resoures
+
+
+  echo "$name_tital";
+  echo "<br>";
+
+
+  $game = "valorent";
+  var_dump($game);
+
+  echo "<br>";
+
+  $num = 1000;
+  var_dump($num);
+
+
+  echo "<br>";
+
+  $numk = 10.009;
+  var_dump($numk);
+
+
+  echo "<br>";
+
+  $nu = true;
+  var_dump($nu);
+
+
+  echo "<br>";
+
+  $array = array("sali","manu","kalo" );
+  var_dump($array);
+
+
+  // ******************************************
+  // ******************************************
+
+
+  echo "<br>";
+  echo "<br>";
+  echo "<br>";
+
+  $a="zubair bin ferdous is one of the best developer";
+  echo "$a";
+  echo "<br>";
+  echo strlen($a);
+
+  echo "<br>";
+
+  echo str_word_count($a);
+
+  echo "<br>";
+
+  echo strrev($a);
+
+  echo "<br>";
+
+  echo strpos($a, "best");
+
+  echo "<br>";
+
+  echo str_replace("best","good","$a");
+
+  echo "<br>";
+
+  define ("learn","php programming language basic");
+  echo learn;
+
+
+  // ******************************************
+  // ******************************************
+
+  echo "<br>";
+  echo "<br>";
+  echo "<br>";
+
+
+  $name_tital="oparator";
+
+  // arithemetic
+  // assigment
+  // comparison
+  // increment oparator/decerment oparetor
+  // logical
+  // string
+  // array
+
+  echo "$name_tital";
+  echo "<br>";
+
+
+
+
+ ?>
+
+</body>
+
+</html>

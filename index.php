@@ -6,8 +6,8 @@
 <style media="screen">
   body{
 
-    font-size: 21px;
-    padding: 40px;
+    font-size: 24px;
+    padding: 50px;
 
   }
 </style>
@@ -153,6 +153,99 @@
 
   echo "$name_tital";
   echo "<br>";
+  // ******************************************
+  // ******************************************
+
+  echo "<br>";
+  echo "<br>";
+
+
+  echo " arithemetic // + ,- ,* ,/ ,% ,** ";
+  echo "<br>";
+
+  $b=22;
+  $m=22;
+
+  $y=$b+$m;
+  echo $y;
+
+
+
+  echo "<br>";
+  echo "<br>";
+  echo " assingment// =  =+ , =- , =* , =/ , =% , =**  ";
+  echo "<br>";
+
+
+  $m=20;
+  $m +=30;
+  echo "$m";
+
+
+  echo "<br>";
+  echo "<br>";
+  echo " comparrison //  == , === , !=, <> , !==, < > , >= , <= " ;
+  echo "<br>";
+
+  $a=2200;
+  $b=2200;
+
+  var_dump($a >= $b);
+
+  echo "<br>";
+
+
+  echo "<br>";
+  echo "<br>";
+  echo " increment/decrement //  ++$m , $m++, --$m, $m-- " ;
+  echo "<br>";
+
+
+  $a=10;
+
+  echo ++$a;
+  echo "<br>";
+  echo "$a";
+
+
+  echo "<br>";
+  echo "<br>";
+  echo " condition" ;
+  echo "<br>";
+
+
+  $q=200;
+
+  if ($q == 10) {
+    echo "ok this is right";
+  }elseif ($q == 20) {
+    echo "ok this is wrong";
+  }else {
+    echo"ok this is accident";
+  }
+
+
+  echo "<br>";
+  echo "<br>";
+  echo " logical oparator > AND OR XOR && || != " ;
+  echo "<br>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

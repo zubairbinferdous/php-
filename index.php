@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+*<!DOCTYPE html>
 <html>
 <head>
 <title>php programming learn hunter</title>
@@ -227,13 +227,41 @@
 
   echo "<br>";
   echo "<br>";
-  echo " logical oparator > AND OR XOR && || != " ;
+  echo " logical oparator > AND OR XOR && || !=  " ;
   echo "<br>";
 
 
+  $a=10;
+  $v=20;
+  $h=30;
+
+  // if ($a == 10 && $v == 20 && $h == 30 ) {
+  //   echo "ok , all are fine";
+  // }else{
+  //   echo "something is wrong";
+  // }
+
+  if ($a == 10 XOR $v == 200  ) {
+    echo "ok , all are fine";
+  }else{
+    echo "something is wrong";
+  }
 
 
 
+  echo "<br>";
+  echo "<br>";
+  echo " string oparator >   .   .=    " ;
+  echo "<br>";
+
+
+  $a="love you ";
+  $b="zubair";
+  $c="valorent";
+
+  // echo $a ." ".$b;
+
+   echo $a .= $c;
 
 
 
@@ -251,6 +279,9 @@
 
 
  ?>
+
+
+
 
 </body>
 

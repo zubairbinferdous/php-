@@ -6,7 +6,7 @@
 <style media="screen">
   body{
 
-    font-size: 24px;
+    font-size: 22px;
     padding: 50px;
 
   }
@@ -51,9 +51,6 @@
   // ******************************************
 
   echo "<br>";
-  echo "<br>";
-  echo "<br>";
-
 
   $name_tital="datatypes";
 
@@ -103,8 +100,7 @@
 
 
   echo "<br>";
-  echo "<br>";
-  echo "<br>";
+
 
   $a="zubair bin ferdous is one of the best developer";
   echo "$a";
@@ -264,6 +260,142 @@
    echo $a .= $c;
 
 
+   echo "<br>";
+   echo "<br>";
+   echo " Array  oparator" ;
+   echo "<br>";
+
+
+   $a = array('$a' => "learn", '$b' => "hunter",'$c' => "is best" );
+   $b = array('onack' , 'tomaka', 'valobaci');
+
+   print_r($b);
+   echo "<br>";
+   var_dump($a != $b);
+
+
+   echo "<br>";
+   echo "<br>";
+   echo " switch case " ;
+   echo "<br>";
+
+
+   $a= "zubi" ;
+   switch ($a) {
+     case 'learn':
+          echo "ok i find it";
+       break;
+     case 'home':
+         echo "ok i find home";
+       break;
+     case 'love':
+           echo "ok i find love";
+       break;
+     case 'zubi':
+        echo "ok zubair is good boy";
+       break;
+     default:
+        echo "something is wrong";
+       break;
+   }
+
+
+
+
+   echo "<br>";
+   echo "<br>";
+   echo " loop " ;
+   echo "<br>";
+
+
+   // while loop
+   // do while loop
+   // for lope
+   // for each loop
+
+
+
+   echo "<br>";
+
+   $b=1;
+
+   while ($b <= 10) {
+      echo "number is : $b ";
+      $b++;
+   }
+
+
+
+   echo "<br>";
+   echo "<br>";
+   echo " do while loop " ;
+   echo "<br>";
+   echo "<br>";
+
+
+   $a=1;
+
+   do {
+     echo " number is : $a ";
+     $a++;
+   } while ($a <= 10);
+
+
+   echo "<br>";
+   echo "<br>";
+   echo " for loop " ;
+   echo "<br>";
+   echo "<br>";
+
+
+
+   for ($a=1; $a <= 10 ; $a++) {
+      echo " number is : $a ";
+   }
+
+
+   echo "<br>";
+   echo "<br>";
+   echo " for each loop " ;
+   echo "<br>";
+   echo "<br>";
+
+
+   $names = array( 'zubair' , 'mitu' , 'prity', 'marjan', 'onamika', 'mim', 'naeim', 'marjan' , 'yutemi' );
+
+   foreach ($names as $name) {
+     echo "$name <br>";
+   }
+
+
+
+   echo "<br>";
+   echo "<br>";
+   echo " function " ;
+   echo "<br>";
+   echo "<br>";
+
+
+function learn(){
+  echo "learn hunter is best youtube <br>";
+  echo "learn hunter is best youtube <br>";
+  echo "learn hunter is best youtube <br>";
+  echo "learn hunter is best youtube <br>";
+  echo "learn hunter is best youtube <br>";
+  echo "learn hunter is best youtube <br>";
+  echo "learn hunter is best youtube <br>";
+}
+learn();
+
+
+
+
+  function zubair($developer , $roll)
+  {
+  echo "$developer my roll $roll";
+  }
+
+  zubair('is a good programmer', '1073');
 
 
 

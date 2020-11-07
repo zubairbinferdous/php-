@@ -1,4 +1,4 @@
-*<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>php programming learn hunter</title>
@@ -523,40 +523,49 @@ learn();
 
    echo "<br>";
    echo "<br>";
-   echo " SERVER " ;
-   echo "<br>";
-
-
-  
-
+   echo "post" ;
    echo "<br>";
    echo "<br>";
-   echo " SERVER " ;
-   echo "<br>";
-
-
-  
-   
- 
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
  ?>
+
+  <?PHP
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+      
+      $email    = $_REQUEST['email'];
+      $password = $_REQUEST['password'];
+
+      if (empty($email)) {
+            echo "plz enter a email ";
+      }
+
+      
+      if (empty($password)) {
+        echo "plz enter a password ";
+  }
+      
+      
+      else {
+         echo $email;
+         echo "<br>";
+         echo $password;
+      }
+
+    }
+
+
+  ?>
+
+  <form action="" method="POST">
+
+    <input type="text" name="email" placeholder="email address"><br><br>
+    <input type="password" name="password" placeholder="email address"><br><br>
+    <input type="submit" value="Done">
+
+  </form>
+
+  <a href="hunter.php?msg=zubairbin ferdous is a good programmer">learn</a>
 
 
 

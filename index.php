@@ -399,6 +399,152 @@ learn();
 
 
 
+  echo "<br>";
+  echo "<br>";
+  echo " index array" ;
+  echo "<br>";
+  echo "<br>";
+
+
+  $name = array('sohel', 'manu', 'malia', 'hloi', 'faruq', 'jamal');
+
+  // echo $name[5];
+  // echo "<br>";
+  // echo count($name);
+
+  $learn = count($name);
+
+  for ($i=0; $i < $learn ; $i++) {
+    echo $name[$i];
+    echo "<br>";
+
+  }
+
+
+  echo "<br>";
+  echo "<br>";
+
+  $same= array('one'=>'siam', 'two'=>'mitu', 'tree'=>'jahid');
+  print_r($same);
+
+
+   echo "<br>";
+   echo "<br>";
+   echo " variable scope" ;
+   echo "<br>";
+
+
+
+   $h=100;
+
+   function all(){
+    $k=20;
+    echo $k;
+    echo "<br>";
+   }
+
+   function  kill(){
+    global $h;
+    $l=250;
+    echo $l;
+    echo "<br>";
+    echo "$h";
+
+   }
+
+   all();
+   kill();
+
+
+
+   echo "<br>";
+   echo "<br>";
+   echo " super Global variable " ;
+   echo "<br>";
+
+   // $Globals
+   // $_server
+   // $_request
+   // $_post
+   // $_get
+   // $_files
+   // $_env
+   // $_cookie
+   // $_session
+
+
+   $o=50;
+   $u=20;
+
+
+  function llee(){
+
+    $GLOBALS ['p'] = $GLOBALS['o'] + $GLOBALS['u'];
+
+  } 
+    llee();
+    echo "$p";
+
+
+
+
+   echo "<br>";
+   echo "<br>";
+   echo " SERVER " ;
+   echo "<br>";
+
+
+
+
+       echo $_SERVER['PHP_SELF'];
+   echo "<br>";
+
+       echo $_SERVER['SERVER_ADDR'];
+   echo "<br>";
+
+       echo $_SERVER['SERVER_NAME'];
+   echo "<br>";
+
+       echo $_SERVER['SCRIPT_NAME'];
+   echo "<br>";
+
+       echo $_SERVER['HTTP_USER_AGENT'];
+   echo "<br>";
+
+       echo $_SERVER['SERVER_SOFTWARE'];
+   echo "<br>";
+
+       echo $_SERVER['SERVER_ADMIN'];
+   echo "<br>";
+
+       echo $_SERVER['REQUEST_METHOD'];
+   echo "<br>";
+
+
+   echo "<br>";
+   echo "<br>";
+   echo " SERVER " ;
+   echo "<br>";
+
+
+  
+
+   echo "<br>";
+   echo "<br>";
+   echo " SERVER " ;
+   echo "<br>";
+
+
+  
+   
+ 
+
+
+
+  
+
+
+
 
 
 

@@ -543,7 +543,7 @@ learn();
       
       if (empty($password)) {
         echo "plz enter a password ";
-  }
+      }
       
       
       else {
@@ -553,6 +553,8 @@ learn();
       }
 
     }
+
+     
 
 
   ?>
@@ -565,7 +567,29 @@ learn();
 
   </form>
 
-  <a href="hunter.php?msg=zubairbin ferdous is a good programmer">learn</a>
+   <BR></BR> <BR></BR>
+
+  <a href="hunter.php?msg=zubairbin ferdous is a good programmer">learn</a> <br> 
+
+
+
+  <?php
+
+      echo "<br>";
+      echo "<br>";
+      echo "DATE" ;
+      echo "<br>";
+      echo "<br>";
+
+      echo "<br>";
+      echo "today" . date("m/d/y");
+      echo "<br>";
+      date_default_timezone_set('asia/dhaka');
+      echo date("h:i.a");
+      echo "<br>";
+      echo date("l");
+
+  ?>
 
 
 
